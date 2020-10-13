@@ -12,4 +12,4 @@ class NoteListView {
 	return readyList + "</ul>";
 }
 }
-
+ 
