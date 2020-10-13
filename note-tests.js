@@ -14,9 +14,8 @@
 // }
 // checkArrayLength();
 
-function testNotesReturn(){
+(function(){
   var note = new Note("I love JS");
   
   assert.isEqualTo(note.text, "I love JS");
-}
-testNotesReturn();
+})();
