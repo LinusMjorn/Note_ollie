@@ -16,9 +16,9 @@
     assert.isEqualTo(noteList.view(0) ,note);
   })();
 
-  (function(){
-   var myList = new NoteList();
-   myList.create("I am creating a first note");
-   myList.create("I am creating a second note");
-   assert.isEqualTo(myList.view(0).text, "I am creating a first note")
-  })();
+  // (function(){
+  //  var myList = new NoteList();
+  //  myList.create("I am creating a first note")
+  //  myList.create("I am creating a second note")
+  //  assert.isEqualTo(myList.view(0).text, "I am creating a first note")
+  // })();

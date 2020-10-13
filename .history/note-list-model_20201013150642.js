@@ -11,7 +11,7 @@ view(index){
 
 create(string) {
     var note = new Note(string);
-    this.addNote(note);
+    addNote(note);
 }
 
 
