@@ -1,20 +1,10 @@
 
 
-// const { assert } = require("./test-lib");
-
 // function testNoteContainsText() {
-//   var note = new Note("I smell bad!");
-//   console.log("test");
-//   assert.isTrue(note.text("I smell good!"));
+//   var note = new Note("I smell good!");
+//   assert.isEqualTo(note.text, "I smell good!");
 // }
 // testNoteContainsText();
-
-function testNoteContainsText() {
-  var note = new Note("I smell good!");
-  // note.addNote("I smell good!");
-  assert.isEqualTo(note.text, "I smell good!");
-}
-testNoteContainsText();
 
 // function checkArrayLength() {
 //   var note = new Note();

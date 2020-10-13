@@ -1,7 +1,8 @@
 
 function testAddingNoteObjects() {
-    var note = new Note();
-    NotesList.addNote(note);
-    assert.isEqualTo(NoteList.notes)
+    var note = new Note("A note");
+    noteList = new NoteList();
+    noteList.addNote(note);
+    assert.isEqualTo(noteList.notes[0], note)
   }
-  testNoteContainsText();
+  testAddingNoteObjects(); 
