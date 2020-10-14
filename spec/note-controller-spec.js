@@ -1,6 +1,7 @@
 (function () {
-    noteController = new NoteController();
-    assert.isEqualto(noteController, instanceof NoteController)
-
-
-  })();
+  noteController = new NoteController();
+  assertNew(
+    noteController instanceof NoteController,
+    "check that we can initiate a instance of NoteController"
+  );
+})();
