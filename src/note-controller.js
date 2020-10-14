@@ -1,11 +1,11 @@
 class NoteController {
-	greet() {
-		var element = document.getElementById('app');
-		console.log(element);
-	}
+  getHTMLElement(id) {
+    var element = document.getElementById(id);
+    console.log(element);
+  }
 
-	changeGreeting(string) {
-		var element = document.getElementById('app');
-		element.innerHTML = string
-	}
+  changeHTML(id, string) {
+    var element = document.getElementById(id);
+    element.innerHTML = string;
+  }
 }
