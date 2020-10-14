@@ -10,7 +10,7 @@ class NoteListView {
     }
     var readyList = "<ul>";
     for (var index = 0; index <= allNotes.length - 1; index++) {
-      readyList += "<li>" + allNotes[index].text + "</li>";
+      readyList += "<li>" + allNotes[index].text.slice(0,20) + "</li>";
     }
     return readyList + "</ul>";
   }
