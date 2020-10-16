@@ -10,7 +10,8 @@ view(index){
 }
 
 create(string) {
-    var note = new Note(string);
+    this.id = this.notes.length
+    var note = new Note(string, this.id);
     this.addNote(note);
 }
 

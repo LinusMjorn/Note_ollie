@@ -10,4 +10,14 @@
 <script src="src/note-list-view.js"></script>
 <script src="src/note-controller.js"></script>
 <script src="src/single-note-view.js"></script>
+<script> 
+
+window.addEventListener("hashchange", function (){
+    var windowHash = window.location.hash
+    var id = notecontroller.getId(windowHash)
+    var note = notecontroller.getNote(id)
+    notecontroller.displayNote(note)
+})
+ </script>
 </body>
+
